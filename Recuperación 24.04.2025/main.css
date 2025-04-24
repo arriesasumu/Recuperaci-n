@@ -1,0 +1,98 @@
+main {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.encabezado {
+    background-color: #1f6599;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+.encabezado article {
+    width: 100%;
+
+}
+h1 {
+    font-size: 41px;
+}
+.entradas {
+    width: 100%;
+
+    padding: 20px;
+    background-color: #fff;
+
+
+}
+.tarjeta {
+    width: 100%;
+    max-width: 865px;
+
+}
+p.titulo {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+p.titulo:hover, .tarjeta a:hover {
+}
+.entradas img {
+    cursor: pointer;
+}
+.entradas img:hover {
+    filter: brightness(0.7);
+}
+.descripcion {
+    padding-top: 25px;
+}
+.descripcion a, .descripcion a:visited {
+    color: #1f6599;
+    text-decoration: none;
+}
+.descripcion a:hover {
+    
+}
+.descripcion strong {
+    font-weight: 600;
+}
+.comentarios, .comentarios:visited {
+    color: #4c4c4c;
+    font-style: italic;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.sigue {
+    
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px ;
+    border: 2px solid #e8e8e8;
+
+    text-align: center;
+    border-radius: 50px;
+    align-self: center;
+    text-decoration: none;
+    font-size: 10px;
+    
+    
+ }
+ .sigue a{
+    
+ }
+ 
+ .tarjeta .sigue:hover {
+    border-color: #1f6599;
+    background-color: #1f6599;
+    color: #fff;
+ }
+ .sigue:visited {
+    color: #4c4c4c;
+ }

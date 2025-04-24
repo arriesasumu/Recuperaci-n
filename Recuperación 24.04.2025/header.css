@@ -1,0 +1,41 @@
+header {
+    
+    
+}
+nav {
+    
+    
+    
+
+}
+
+nav a {
+
+}
+.menu {
+
+}
+.menu li {
+
+}
+.boton {
+    border: 2px solid #1f6599;
+    padding: 14px 12px;
+    color: #1f6599;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.boton:hover {
+
+}
+.boton:hover a {
+
+}
+.hamburguesa {
+    display: none;
+    font-size: 2em;
+    color: #1f6599;
+}
